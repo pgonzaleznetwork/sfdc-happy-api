@@ -3,7 +3,9 @@ let metadataAPI = require('../lib/metadata');
 let restAPI = require('../lib/rest');
 let reportsAPI = require('../lib/reports');
 
-
+/**
+ * Returns all the salesforce APIs as functions
+ */
 function happyApi(){
 
     return {
